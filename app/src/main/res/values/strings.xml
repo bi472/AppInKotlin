@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyFirstAppInKotlin</string>
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="save_data">Save data</string>
+    <string name="get_data">Get data</string>
+    <string name="greetings">Hi</string>
+    <string name="server_URL">Server URL:</string>
+    <string name="topic">Topic:</string>
+    <string name="message">Message:</string>
+    <string name="publish">Publish</string>
+    <string name="subscribe">Subscribe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
