@@ -1,3 +1,3 @@
 package com.example.domain.models
 
-class RelayStatus (val condition: String)
+data class RelayStatus (val condition: String)

@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/drawable/blue_rectangle.xml" value="0.2045" />
         <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/drawable/ic_settings.xml" value="0.124" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/drawable/light_blue_rectangle.xml" value="0.2035" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/drawable/main_screen.xml" value="0.3625" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/drawable/weather_rectangle.xml" value="0.25" />
         <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
-        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/fragment_main.xml" value="0.33" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/fragment_main.xml" value="0.5" />
         <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/fragment_mqtt_settings.xml" value="0.33" />
         <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/light_fragment.xml" value="0.25" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/layout/rv_item.xml" value="0.67" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1935" />
+        <entry key="..\:/MyFirstAppInKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1935" />
       </map>
     </option>
   </component>

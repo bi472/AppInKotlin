@@ -1,3 +1,3 @@
 package com.example.data.storage.models
 
-class PublishMessageData (val topic: String, val message: String)
+data class PublishMessageData (val topic: String, val message: String)

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="bold_textview">
+        <item name="android:textSize">
+            20sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+        <item name="android:fontFamily">
+            @font/roboto_bold
+        </item>
+    </style>
+
+    <style name="regular_textview">
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #F5F5F5
+        </item>
+        <item name="android:fontFamily">
+            @font/roboto
+    </item>
+    </style>
+
+    <style name="temperature_textview">
+
+        <item name="android:textSize">
+            35sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+        <item name="android:fontFamily">
+            @font/roboto_bold
+        </item>
+    </style>
+
+    <style name="room_name_textview">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+        <item name="android:fontFamily">
+            @font/roboto_bold
+        </item>
+    </style>
+</resources>

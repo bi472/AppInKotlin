@@ -1,3 +1,3 @@
 package com.example.data.storage.models
 
-class RelayStatusData (val condition: String)
+data class RelayStatusData (val condition: String)

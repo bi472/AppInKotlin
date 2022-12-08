@@ -1,3 +1,3 @@
 package com.example.domain.models
 
-class UserName (val user: String, val password: String)
+data class UserName (val user: String, val password: String)
