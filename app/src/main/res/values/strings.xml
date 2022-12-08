@@ -10,4 +10,7 @@
     <string name="message">Message:</string>
     <string name="publish">Publish</string>
     <string name="subscribe">Subscribe</string>
+    <string name="light_name">Light name:</string>
+    <string name="put_light">Put light name here</string>
+    <string name="put_topic">Put MQTT topic here</string>
 </resources>

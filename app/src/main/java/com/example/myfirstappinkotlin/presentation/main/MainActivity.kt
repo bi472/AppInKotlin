@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         if (savedInstanceState == null){
             supportFragmentManager.commit{
                 setReorderingAllowed(true)
-                replace<MainFragment>(R.id.container)
+                replace<MqttSettingsFragment>(R.id.container)
             }
         }
     }

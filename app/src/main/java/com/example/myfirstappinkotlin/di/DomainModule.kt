@@ -27,4 +27,16 @@ val domainModule = module {
     factory <MqttSubscribeUseCase>{
         MqttSubscribeUseCase(mqttCommunicateRepository = get())
     }
+
+    factory <GetAllLightNamesUseCase>{
+        GetAllLightNamesUseCase(lightNamesRepository = get())
+    }
+
+    factory <GetTopicByNameUseCase>{
+        GetTopicByNameUseCase(lightNamesRepository = get())
+    }
+
+    factory <InsertLightUseCase>{
+        InsertLightUseCase(lightNamesRepository = get())
+    }
 }

@@ -10,17 +10,33 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="@string/server_URL"
+        android:text="@string/light_name"
         android:layout_marginLeft="5dp"
         />
 
     <EditText
-        android:id="@+id/ServerUriEditText"
+        android:id="@+id/lightNameED"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint = "Put url here"/>
+        android:hint = "@string/put_light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/topic"
+        android:layout_marginLeft="5dp"
+        />
+
+    <EditText
+        android:id="@+id/topicED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint = "@string/put_topic"/>
 
     <Button
         android:id="@+id/sendButton"
@@ -32,7 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/userData"
+        android:id="@+id/lightData"
         />
 
     <Button

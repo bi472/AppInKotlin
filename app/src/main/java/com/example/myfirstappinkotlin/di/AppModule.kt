@@ -11,14 +11,18 @@ val appModule = module {
     viewModel<MainViewModel>{
         MainViewModel(
             getUserNameUseCase = get(),
-            saveUserNameUseCase = get(),
+            getMqttSettingsUseCase = get(),
+            subscribeUseCase = get(),
+            publishUseCase = get()
         )
     }
 
     viewModel<MqttSettingsViewModel>(){
         MqttSettingsViewModel(
             getMqttSettingsUseCase = get(),
-            saveMqttSettingsUseCase = get()
+            saveMqttSettingsUseCase = get(),
+            insertLightUseCase = get(),
+            getAllLightNamesUseCase = get()
         )
     }
 
