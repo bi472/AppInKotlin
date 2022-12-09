@@ -56,7 +56,10 @@ val dataModule = module {
         ).build()
     }
     single <LightNamesStorage>{
-        LightNamesRepositoryImpl(get())
+        LightRepository(lightDatabaseDao = get())
+    }
+    single <LightNamesRepository>{
+        LightNamesRepositoryImpl(lightNamesStorage = get())
     }
     single {
         val database = get<LightDatabase>()

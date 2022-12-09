@@ -36,6 +36,7 @@ dependencies {
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
     implementation 'androidx.room:room-common:2.3.0'
+    annotationProcessor ("androidx.room:room-compiler:2.3.0")
     implementation 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1'
     implementation 'androidx.room:room-ktx:2.3.0'
     testImplementation 'junit:junit:4.13.2'
